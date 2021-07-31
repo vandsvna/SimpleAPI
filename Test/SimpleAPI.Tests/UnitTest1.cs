@@ -15,7 +15,7 @@ namespace SimpleAPI.Tests
             var oResult = oWFC.GetOwnerName(1);
 
             // Assert
-            Assert.Equal("Vandana Sharma", oResult);
+            Assert.Equal("Vandana Sharma1", oResult);
         }
     }
 }
