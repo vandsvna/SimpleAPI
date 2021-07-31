@@ -19,7 +19,7 @@ variables:
       inputs:
         command: test
         projects: '*/*Tests/.csproj'
-        arguments: '--configuration
+        arguments: '--configuration'
 
 steps:
 - task: NuGetToolInstaller@1
